@@ -4,7 +4,7 @@
 <body>
     <div class="row">
         <div class="container">
-            <h2><i class="fas fa-home">Aplikasi Data Mahasiswa</i></h2>
+            <h2>Aplikasi Data Mahasiswa</h2>
             <hr>
             <a href="input.php" class="btn btn-info"><i class="fa fa-plus"></i> Input Data</a>
             <br><br>
