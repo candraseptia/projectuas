@@ -38,7 +38,7 @@
 
     <div class="row">
         <div class="container">
-        <h2><i class="fa fa-pencil"></i> Form Edit Data Mahasiswa</h2>
+        <h2><i class="fa fa-pencil"></i> <b>Edit Data Mahasiswa</b></h2>
         <hr>
         <form class="form-horizontal" method="post" action="update.php">
             <div class="form-group">
