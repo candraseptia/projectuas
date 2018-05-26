@@ -48,8 +48,8 @@
                             echo "<td>".$row['jenis_kelamin']."</td>";
                             echo "<td class='center'>".$row['semester']."</td>";
                             echo "<td>".$row['prodi']."</td>";
-                            echo '<td class="text-center"><a href="form-edit.php?nim='.$row['nim'].'" class="btn btn-info btn-xs"><i class="fa fa-pencil">edit</i></a>';
-                            echo ' <a href="hapus.php?nim='.$row['nim'].'" class="btn btn-danger btn-xs"><i class="fa fa-trash">hapus</i></a></td>';
+                            echo '<td class="text-center"><a href="form-edit.php?nim='.$row['nim'].'" class="btn btn-info btn-xs"><i class="fa fa-pencil"> edit</i></a>';
+                            echo ' <a href="hapus.php?nim='.$row['nim'].'" class="btn btn-danger btn-xs"><i class="fa fa-trash"> hapus</i></a></td>';
                             echo "</tr>";
                         }
                     }
