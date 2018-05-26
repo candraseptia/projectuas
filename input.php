@@ -4,7 +4,7 @@
 <body>
     <div class="row">
         <div class="container">
-        <h2><i class="fa fa-plus"></i> Tambah Data Mahasiswa</h2>
+        <h2><i class="fa fa-plus"></i>Tambah Data Mahasiswa</h2>
         <hr>
         <form class="form-horizontal" method="post" action="simpan.php">
             <div class="form-group">
