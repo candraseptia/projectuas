@@ -7,4 +7,3 @@ env:
 
 script:
   - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
-  
