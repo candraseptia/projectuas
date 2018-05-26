@@ -4,7 +4,7 @@
 <body>
     <div class="row">
         <div class="container">
-            <h2>Aplikasi Data Mahasiswa</h2>
+            <h2><b>Aplikasi Data Mahasiswa</b></h2>
             <hr>
             <a href="input.php" class="btn btn-info"><i class="fa fa-plus"></i> Input Data</a>
             <br><br>
@@ -48,8 +48,8 @@
                             echo "<td>".$row['jenis_kelamin']."</td>";
                             echo "<td class='center'>".$row['semester']."</td>";
                             echo "<td>".$row['prodi']."</td>";
-                            echo '<td class="text-center"><a href="form-edit.php?nim='.$row['nim'].'" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i></a>';
-                            echo ' <a href="hapus.php?nim='.$row['nim'].'" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a></td>';
+                            echo '<td class="text-center"><a href="form-edit.php?nim='.$row['nim'].'" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i>edit</a>';
+                            echo ' <a href="hapus.php?nim='.$row['nim'].'" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i>hapus</a></td>';
                             echo "</tr>";
                         }
                     }
