@@ -1,0 +1,16 @@
+{
+    "name": "candra septia cahya",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Candra Septia Cahya",
+            "email": "candraseptia93@gmail.com",
+            "role": "programmer"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "description": "Project UAS Semester 4"
+
+}
