@@ -6,4 +6,10 @@ env:
     - 'FTP_PASS=1205akang'
 
 script:
-  - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  # - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T input.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T simpan.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T update.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T hapus.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T form-edit.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
